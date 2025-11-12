@@ -66,7 +66,7 @@ const Education = () => {
         >
           <h3 className="text-xl font-semibold"> Certification in HTML, CSS, Javascript, C, C++, Java</h3>
           <h4 className="text-lg font-medium text-gray-300">
-            By NIIT
+            NIIT
           </h4>
         </VerticalTimelineElement>
 
