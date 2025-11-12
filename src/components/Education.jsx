@@ -40,7 +40,7 @@ const Education = () => {
           <h4 className="text-lg font-medium text-gray-300">
             Uttarakhand Technical University
           </h4>
-          <p className="text-gray-700">First Year CGPA: <strong>7.17</strong></p>
+          <p className="text-gray-700">Percentage: <strong>75.2%</strong></p>
         </VerticalTimelineElement>
 
         {/* Web Development Bootcamp */}
@@ -56,7 +56,7 @@ const Education = () => {
           contentArrowStyle={{
             borderRight: "10px solid #673ab7",
           }}
-          date="2024"
+          date="2023"
           dateClassName="text-gray-500"
           iconStyle={{
             backgroundColor: "#673ab7",
@@ -64,9 +64,9 @@ const Education = () => {
           }}
           iconClassName="animate-pulse"
         >
-          <h3 className="text-xl font-semibold"> The Complete 2024 Web Development Bootcamp</h3>
+          <h3 className="text-xl font-semibold"> Certification in HTML, CSS, Javascript, C, C++, Java</h3>
           <h4 className="text-lg font-medium text-gray-300">
-            By Dr.Angela Yu, Udemy
+            By NIIT
           </h4>
         </VerticalTimelineElement>
 
@@ -83,7 +83,7 @@ const Education = () => {
           contentArrowStyle={{
             borderRight: "10px solid #f9a825",
           }}
-          date="2019 - 2022"
+          date="2015 - 2018"
           dateClassName="text-gray-500"
           iconStyle={{
             backgroundColor: "#f9a825",
@@ -91,11 +91,11 @@ const Education = () => {
           }}
           iconClassName="animate-pulse"
         >
-          <h3 className="text-xl font-semibold">Bachelor of Arts</h3>
+          <h3 className="text-xl font-semibold">B.Sc. Physical Science</h3>
           <h4 className="text-lg font-medium text-gray-300">
-            Uttarakhand Open University
+            University of Delhi
           </h4>
-          <p className="text-gray-700">Graduated with <strong>66%</strong></p>
+          <p className="text-gray-700">CGPA: <strong>6.909</strong></p>
         </VerticalTimelineElement>
 
         {/* Class 12th */}
@@ -111,7 +111,7 @@ const Education = () => {
           contentArrowStyle={{
             borderRight: "10px solid #2196f3",
           }}
-          date="2017 - 2018"
+          date="2014 - 2015"
           dateClassName="text-gray-500"
           iconStyle={{
             backgroundColor: "#2196f3",
@@ -121,9 +121,9 @@ const Education = () => {
         >
           <h3 className="text-xl font-semibold">Class 12th</h3>
           <h4 className="text-lg font-medium text-gray-300">
-            Himalayan Progressive School (CBSE)
+            Aryaman Vikram Birla Institute of Learning (CBSE)
           </h4>
-          <p className="text-gray-700">Secured <strong>83%</strong></p>
+          <p className="text-gray-700">Secured <strong>83.4%</strong></p>
         </VerticalTimelineElement>
 
         {/* Class 10th */}
@@ -139,7 +139,7 @@ const Education = () => {
           contentArrowStyle={{
             borderRight: "10px solid #ff5722",
           }}
-          date="2015 - 2016"
+          date="2012 - 2013"
           dateClassName="text-gray-500"
           iconStyle={{
             backgroundColor: "#ff5722",
@@ -149,9 +149,9 @@ const Education = () => {
         >
           <h3 className="text-xl font-semibold">Class 10th</h3>
           <h4 className="text-lg font-medium text-gray-300">
-            Himalayan Progressive School (CBSE)
+            Aryaman Vikram Birla Institute of Learning (CBSE)
           </h4>
-          <p className="text-gray-700">Secured <strong>89%</strong></p>
+          <p className="text-gray-700">CGPA <strong>8.4</strong></p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

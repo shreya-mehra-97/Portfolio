@@ -1,6 +1,6 @@
 import {  
     
-    portfolio, chatapp, texmage
+    portfolio, mockmate, rentflix
      
   } from "../assets";
   
@@ -52,36 +52,29 @@ import {
       source_code_link: "https://personalportfolio-eqjb.onrender.com",
     },
     {
-  name: "MERN Real-Time Chat App",
+  name: "Mockmate",
   description:
-    "Built a full-stack real-time chat application with support for text messaging, image sharing, and user profile pictures. Users can upload, view, and change their profile pictures. The app is built using ReactJS, Tailwind CSS, Node.js, Express, MongoDB, and Socket.io for real-time updates.",
+    "MockMate is a web-based platform that simulates real-time job interviews using artificial intelligence. It analyzes user responses through NLP and speech-to-text technologies to provide detailed feedback and performance evaluation. Built with Next.js, Node.js, PostgreSQL/MongoDB, and OpenAI Whisper, the system offers personalized interview practice, automated scoring, and improvement suggestions, helping users enhance their interview skills effectively.",
   tags: [
     { name: "reactjs", color: "blue-text-gradient" },
-    { name: "tailwindcss", color: "green-text-gradient" },
     { name: "nodejs", color: "yellow-text-gradient" },
     { name: "express", color: "pink-text-gradient" },
     { name: "mongodb", color: "green-text-gradient" },
-    { name: "socket.io", color: "blue-text-gradient" },
-    { name: "cloudinary", color: "orange-text-gradient" }, // if used for images
+   , // if used for images
   ],
-  image: chatapp,
-  source_code_link: "https://chatapp-xkpe.onrender.com", // 🔁 Replace with your actual hosted link
+  image: mockmate,
+  source_code_link: "https://mock-mate-eosin.vercel.app/", // 🔁 Replace with your actual hosted link
 },
 {
-  name: "Texmage AI",
-  description:
-    "Texmage AI is an AI-powered image generation platform built with Next.js, Tailwind CSS, shadcn/ui, and MongoDB. Users can sign in using Google or GitHub via NextAuth, generate images from text prompts (up to 4 for free), and upgrade to Pro using Razorpay to unlock unlimited generations and can download generated images.",
+  name: "Rentflix",
+  description:"Rentflix is a full-stack movie rental web app built using the MERN Stack. It allows users to browse, rent, and stream movies with an intuitive and responsive interface. The platform focuses on delivering a smooth user experience with dynamic content and modern UI design.",
   tags: [
     { name: "nextjs", color: "blue-text-gradient" },
-    { name: "tailwindcss", color: "green-text-gradient" },
-    { name: "shadcn/ui", color: "pink-text-gradient" },
+    { name: "reactjs", color: "green-text-gradient" },
     { name: "mongodb", color: "green-text-gradient" },
-    { name: "nextauth", color: "blue-text-gradient" },
-    { name: "razorpay", color: "orange-text-gradient" },
-    { name: "ai-api", color: "purple-text-gradient" },
   ],
-  image: texmage, // ✅ Replace this with your image variable like `import { texmage } from "../assets";`
-  source_code_link: "https://aitext2image.vercel.app/", // 🔁 Replace with your actual deployed link
+  image: rentflix, // ✅ Replace this with your image variable like `import { texmage } from "../assets";`
+  source_code_link: "https://rentflix.vercel.app/home", // 🔁 Replace with your actual deployed link
 }
 
 

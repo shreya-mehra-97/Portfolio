@@ -23,8 +23,7 @@ const Hero = () => {
   return (
     <section
       className="relative w-full h-screen   overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/herobg.png')" }}
-    >
+     >
       <div
         className={`sm:my-[5rem] absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center`}
       >
@@ -39,7 +38,7 @@ const Hero = () => {
             className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-[#915EFF] to-[#FF69B4]"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
           >
-            Prachi
+            SHREYA
           </span>
         </motion.h1>
 
@@ -50,7 +49,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1, ease: "easeOut" }}
           style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)" }}
         >
-          I build full-stack web applications <br className="sm:block hidden" />
+          I build frontend web applications <br className="sm:block hidden" />
           and engaging user interfaces
         </motion.p>
 
