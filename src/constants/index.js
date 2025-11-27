@@ -1,6 +1,6 @@
 import {  
     
-    portfolio, mockmate, rentflix
+    portfolio, mockmate, rentflix, dashboard
      
   } from "../assets";
   
@@ -75,10 +75,18 @@ import {
   ],
   image: rentflix, // ✅ Replace this with your image variable like `import { texmage } from "../assets";`
   source_code_link: "https://rentflix.vercel.app/home", // 🔁 Replace with your actual deployed link
+},
+{
+  name: "Dashboard",
+  description:"A minimal React admin dashboard built with the React + Vite template for fast development and hot reloading.​Uses JavaScript, CSS, and HTML with basic ESLint rules for clean, consistent code.",
+  tags: [
+    { name: "react", color: "blue-text-gradient" },
+    { name: "Vite", color: "green-text-gradient" },
+    { name: "ESLint", color: "green-text-gradient" },
+  ],
+  image: dashboard, // ✅ Replace this with your image variable like `import { texmage } from "../assets";`
+  source_code_link: "https://dashboard-beta-two-21.vercel.app/", // 🔁 Replace with your actual deployed link
 }
-
-
-    
-  ];
+];
   
   export { projects };

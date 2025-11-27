@@ -5,9 +5,9 @@ import menu from './menu.svg'
 import github from './github.png'
 import portfolio from './portfolio.png'
 import rentflix from './rentflix.png'
-
+import dashboard from'./dashboard.png.jpg'
 export {
   recipeApp, mockmate,
   close, menu, github,
-  portfolio, rentflix
+  portfolio, rentflix,dashboard
 }
